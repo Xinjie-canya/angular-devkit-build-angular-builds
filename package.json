@@ -53,9 +53,6 @@
     "webpack-sources": "^1.1.0",
     "webpack-subresource-integrity": "^1.1.0-rc.4"
   },
-  "optionalDependencies": {
-    "node-sass": "^4.9.1"
-  },
   "keywords": [
     "angular",
     "Angular CLI",
