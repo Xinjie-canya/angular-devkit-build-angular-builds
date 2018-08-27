@@ -184,7 +184,7 @@ function getStylesConfig(wco) {
         {
             test: /\.less$/, use: [{
                     loader: 'less-loader',
-                    options: Object.assign({ sourceMap: cssSourceMap }, lessPathOptions)
+                    options: Object.assign({ sourceMap: cssSourceMap }, lessPathOptions, {javascriptEnabled: true})
                 }]
         },
         {
